@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
 
-  before_action :find_item, only: [:show, :edit, :update, :destroy]
+  before_action :find_item, only: [:show, :edit, :update, :destroy, :upvote]
   before_action :check_if_admin, only: [:edit, :update, :new, :create, :destroy]
 
 
@@ -62,13 +62,25 @@ class ItemsController < ApplicationController
     redirect_to action: "index"
   end
 
+  def upvote
+    @item.increment!(:votes_count)
+    redirect_to action: :index
+  end
+
+  def expensive
+    @items = Item.where("price > 10000")
+    render "index"
+  end
+
+
   private
 
     def find_item
-      @item = Item.find(params[:id])
+      @item = Item.where(id: params[:id]).first
+      render_404 unless @item
     end
 
     def check_if_admin
-      render plain: "Access denied", status: 403 unless params[:admin]
+      render_403 unless params[:admin]
     end
 end
