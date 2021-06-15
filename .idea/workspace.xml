@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/item.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/edit.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/items/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +294,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556575675717</updated>
       <workItem from="1556575678110" duration="48965000" />
-      <workItem from="1623046181506" duration="10583000" />
+      <workItem from="1623046181506" duration="12500000" />
     </task>
     <task id="LOCAL-00001" summary="new store">
       <created>1556575782325</created>

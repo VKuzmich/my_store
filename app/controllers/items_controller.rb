@@ -8,7 +8,6 @@ class ItemsController < ApplicationController
     # render :plain => @items.map { |i| "#{i.name} #{i.price}" }.join("\n")
   end
 
-
   #  /items POST
   def create
     @item = Item.create(item_params)
@@ -20,14 +19,12 @@ class ItemsController < ApplicationController
     end
   end
 
-
   # /items/1 GET
   def show
     unless @item
       render :plain => "Page not found", status => 404
     end
   end
-
 
   # /items/new GET
   def new
@@ -48,8 +45,6 @@ class ItemsController < ApplicationController
     end
   end
 
-
-
   #/items/1 DELETE
   def destroy
     @item.destroy
@@ -65,7 +60,6 @@ class ItemsController < ApplicationController
     @items = Item.where("price > 10000")
     render "index"
   end
-
 
   private
 
