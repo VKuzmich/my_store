@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2021_06_07_063803) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "description"
+    t.integer "votes_count", default: 0
     t.index ["name"], name: "index_items_on_name"
     t.index ["price"], name: "index_items_on_price"
   end

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_store.iml" afterDir="false" />
+    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190429221856_create_items.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190429221856_create_items.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -296,7 +295,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556575675717</updated>
       <workItem from="1556575678110" duration="48965000" />
-      <workItem from="1623046181506" duration="3589000" />
+      <workItem from="1623046181506" duration="10583000" />
     </task>
     <task id="LOCAL-00001" summary="new store">
       <created>1556575782325</created>
@@ -326,7 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557134912683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactoring">
+      <created>1623154514273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623154514273</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactoring">
+      <created>1623154582419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623154582419</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -394,7 +407,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new store" />
-    <option name="LAST_COMMIT_MESSAGE" value="new store" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190430091229_add_description_column_to_items.rb">
