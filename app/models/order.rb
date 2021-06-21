@@ -1,6 +1,6 @@
 class Order < ApplicationRecord
-  attr_accessor :user, :user_id
+  # attr_accessor :user, :user_id
 
-  belongs_to :user, class_name: "User", optional: true
+  belongs_to :user
   
 end
