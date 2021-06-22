@@ -3,7 +3,11 @@ class ItemsController < ApplicationController
   # before_action :check_if_admin, only: [:edit, :update, :new, :create, :destroy]
 
   def index
-    @items = Item.all
+    @items = Item
+    @items = @items.where('price >= ?', params[:price_from]) if params[:price_from]
+    @items = @items.where('created_at >= ?', 1.day.ago) if params[:today]
+    @items = @items.where('votes_count >= ?', params[:votes_from]) if params[:votes_from]
+    @items = @items.order('votes_count DESC', 'price')
     # @items = Item.all
     # render :plain => @items.map { |i| "#{i.name} #{i.price}" }.join("\n")
   end
@@ -39,8 +43,10 @@ class ItemsController < ApplicationController
   def update
     @item.update_attributes(item_params)
     if @item.errors.empty?
+      flash[:success] = "You have successfully updated your form!"
       redirect_to item_path(@item) # items/id
     else
+      flash[:error] = "You have made mistake in your form!"
       render "edit"
     end
   end

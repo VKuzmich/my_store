@@ -2,7 +2,7 @@
 
 <ul>
   <li><%= @item.price %> uah </li>
-  <li><%= @item.description %>  </li>
+  <li><%= url_to_images(@item.description).html_safe %>  </li>
   <li> Weight: <%= @item.weight %> kg </li>
 
 </ul>
