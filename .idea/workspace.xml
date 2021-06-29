@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="add new associations">
-      <change afterPath="$PROJECT_DIR$/app/views/admin/users_count.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/items/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" afterDir="false" />
+    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="add devise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/item.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/show.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +303,7 @@
       <updated>1556575675717</updated>
       <workItem from="1556575678110" duration="48965000" />
       <workItem from="1623046181506" duration="25858000" />
-      <workItem from="1624292394124" duration="9788000" />
+      <workItem from="1624292394124" duration="12024000" />
     </task>
     <task id="LOCAL-00001" summary="new store">
       <created>1556575782325</created>
@@ -387,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624294585862</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add refactoring and flash messages">
+      <created>1624390960527</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1624390960527</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add devise">
+      <created>1624390999409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624390999409</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -460,7 +462,9 @@
     <MESSAGE value="add user, cart, order" />
     <MESSAGE value="add united table of carts items" />
     <MESSAGE value="add new associations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new associations" />
+    <MESSAGE value="add refactoring and flash messages" />
+    <MESSAGE value="add devise" />
+    <option name="LAST_COMMIT_MESSAGE" value="add devise" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190430091229_add_description_column_to_items.rb">

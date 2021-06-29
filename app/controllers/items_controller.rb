@@ -46,7 +46,7 @@ class ItemsController < ApplicationController
       flash[:success] = "You have successfully updated your form!"
       redirect_to item_path(@item) # items/id
     else
-      flash[:error] = "You have made mistake in your form!"
+      flash.now[:error] = "You have made mistake in your form!"
       render "edit"
     end
   end
