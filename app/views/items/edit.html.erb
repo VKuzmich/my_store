@@ -1,6 +1,6 @@
 <h1>Edit item</h1>
 
-<%= form_for @item do |f| %>
+<%= simple_form_for @item do |f| %>
   <%= render partial: "form", locals: { f: f }  %>
   <p><%= f.submit "Edit product" %></p>
 <% end %>

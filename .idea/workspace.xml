@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="add devise">
+    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="refactoring and using haml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/show.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +303,7 @@
       <updated>1556575675717</updated>
       <workItem from="1556575678110" duration="48965000" />
       <workItem from="1623046181506" duration="25858000" />
-      <workItem from="1624292394124" duration="12024000" />
+      <workItem from="1624292394124" duration="14100000" />
     </task>
     <task id="LOCAL-00001" summary="new store">
       <created>1556575782325</created>
@@ -389,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624390999409</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactoring and using haml">
+      <created>1624952291084</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624952291084</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactoring and using haml">
+      <created>1624952326304</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624952326304</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -464,7 +478,8 @@
     <MESSAGE value="add new associations" />
     <MESSAGE value="add refactoring and flash messages" />
     <MESSAGE value="add devise" />
-    <option name="LAST_COMMIT_MESSAGE" value="add devise" />
+    <MESSAGE value="refactoring and using haml" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring and using haml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190430091229_add_description_column_to_items.rb">

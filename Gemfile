@@ -40,6 +40,7 @@ gem 'paperclip'
 gem 'carrierwave'
 gem 'devise', '~> 4.2'
 gem 'haml-rails'
+gem 'simple_form', git: 'git://github.com/plataformatec/simple_form'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
