@@ -1,0 +1,10 @@
+%h2= @item.name
+%ul
+  %li
+    = @item.price
+    uah
+  %li= url_to_images(@item.description).html_safe
+  %li
+    Weight: #{@item.weight} kg
+%td= link_to "ALL ITEMS", items_path
+

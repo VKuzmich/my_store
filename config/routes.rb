@@ -6,6 +6,6 @@ Rails.application.routes.draw do
     get :expensive, on: :collection
   end
 
-  match "admin/users_count" => "admin#users_count", via: [:get, :post]
+  get "admin/users_count" => "admin#users_count", via: [:get, :post]
   # get ':controller(/:action(/:id))(.:format)'
 end
