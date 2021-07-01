@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="add simple form">
-      <change afterPath="$PROJECT_DIR$/config/initializers/exception_notification.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_store.iml" afterDir="false" />
+    <list default="true" id="fca8bc17-38aa-4f68-ab1d-389a579ad98d" name="Default Changelist" comment="exceptions and sendmail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/item_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/admin_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/items_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/order_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/blog_posts.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/carts.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/comments.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/items.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/orders.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/positions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/blog_post_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/cart_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/comment_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/item_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/order_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/position_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +330,7 @@
       <updated>1556575675717</updated>
       <workItem from="1556575678110" duration="48965000" />
       <workItem from="1623046181506" duration="25858000" />
-      <workItem from="1624292394124" duration="22129000" />
+      <workItem from="1624292394124" duration="24931000" />
     </task>
     <task id="LOCAL-00001" summary="new store">
       <created>1556575782325</created>
@@ -422,7 +444,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624954802656</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="exceptions and sendmail">
+      <created>1625132048202</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1625132048202</updated>
+    </task>
+    <task id="LOCAL-00018" summary="exceptions and sendmail">
+      <created>1625132076138</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625132076138</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -499,7 +535,8 @@
     <MESSAGE value="add devise" />
     <MESSAGE value="refactoring and using haml" />
     <MESSAGE value="add simple form" />
-    <option name="LAST_COMMIT_MESSAGE" value="add simple form" />
+    <MESSAGE value="exceptions and sendmail" />
+    <option name="LAST_COMMIT_MESSAGE" value="exceptions and sendmail" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190430091229_add_description_column_to_items.rb">
